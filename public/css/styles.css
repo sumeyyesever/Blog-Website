@@ -3,6 +3,7 @@
 
 h1{
     font-size: 26px;
+    margin-top: 25px;
 }
 
 h1 a{
@@ -32,6 +33,8 @@ h1 a:hover{
     letter-spacing: 5px;
 }
 
+
+
 .nav-link{
     color: #bc6c25;
     letter-spacing: 3px;
@@ -58,3 +61,12 @@ h1 a:hover{
     color: #bc6c25;
     font-family: 'Roboto', sans-serif;;
 }
+
+.btn {
+    margin-top: 10px;
+}
+
+label{
+    margin-top: 10px;
+}
+
