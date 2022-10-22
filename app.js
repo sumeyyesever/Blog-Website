@@ -65,9 +65,9 @@ app.post("/compose", function(req,res){
 
 });
 
-app.get("/books")
 
-app.post("/books/:bookID", function(req,res){
+
+app.get("/books/:bookID", function(req,res){
     const bId = req.params.bookID;
     Book.findById({_id: bId}, function(err, foundBook){
         if(!err){
