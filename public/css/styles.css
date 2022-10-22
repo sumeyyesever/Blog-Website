@@ -70,3 +70,11 @@ label{
     margin-top: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: #bc6c25;
+}
+
+a:hover{
+    color: #283618;
+}

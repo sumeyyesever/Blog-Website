@@ -3,8 +3,11 @@
 <h1><a href="https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear"> The Wise Man's Fear</a></h1>
 <p>"There are three things all wise men fear: the sea in storm, a night with no moon, and the anger of a gentle man."</p>
 
-<h1><%= bookTitle %></h1>
-<p> <%= quote %></p>
+<% books.forEach(function(book){ %>
+    <h1><%= book.title %></h1>
+    <p> <%= book.quote.substring(0,100)+ " ...  " %><a href="books/<%= book._id %>">Read More</a></p>
+<% }); %>
+
 
 
 <%- include("partials/footer") -%>
